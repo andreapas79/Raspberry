@@ -1,5 +1,7 @@
 # Connessione in remoto a Raspberry
 
+[TOC]
+
 ## Prima connessione
 
 1. Abilitazione SSH su raspberry: 
@@ -60,6 +62,8 @@
 
 7. Quando ci si connette inserire la password settata al punto 5 e dare ok
 
+
+
 ## Connessioni successive
 
 1. Accendere il Raspberry e lasciare che si connetta
@@ -78,9 +82,14 @@
 
 5. Inserire la password impostata della connessione VNC
 
+
+
+## Tips
+
 Nel caso si voglia chiudere la connessione al server VNC, dal terminale aperto di putty digitare:
 
 ```bash
 vncserver -kill
 ```
 
+Un buon strumento per lo scan degli indirizzi IP su Windows è **Angry IP Scanner**
